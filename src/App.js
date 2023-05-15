@@ -1,9 +1,14 @@
 import React from 'react';
+import HeaderInfo from './components/HeaderInfo';
 
 const App = () => {
   return (
     <div>
-      <h1>hello</h1>
+      <div className='app-container'>
+        <hearder>
+          <HeaderInfo />
+        </hearder>
+      </div>
     </div>
   );
 };
